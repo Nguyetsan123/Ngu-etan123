@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box1 {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(26, 192, 115);
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(8, 71, 50);
+}
+.logo {
+  margin-top: 13px;
+  margin-left: 27px;
+  display: inline-block;
+}
+nav {
+  margin-left: 638px;
+  margin-top: -41px;
+}
+nav li {
+  display: inline-block; /* nam ngang */
+}
+nav li a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-decoration: none; /* bỏ gạch chân */
+  text-transform: uppercase; /* viet hoa toan bo */
+  line-height: 60px; /* can cho bang header */
+  padding: 0 15px; /* khoang cach chu */
+  display: inline-block; /* hover bang hearder 66px ngang len*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+header nav li:hover a {
+  color: rgb(13, 13, 13);
+  background-color: rgb(152, 221, 233);
+}
+.search {
+  display: block;
+  margin-left: 1380px;
+  margin-top: -38px;
+}
+.cart {
+  margin-left: 1422px;
+  margin-top: -27px;
+}
+.box1-right img {
+  margin-left: 817px;
+  margin-top: 144px;
+}
+.box1-left .p1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  margin-left: 194px;
+  margin-top: 153px;
+  width: 525px;
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+.box1-left .p2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  margin-left: 194px;
+  margin-top: 327px;
+  width: 525px;
+  letter-spacing: 2px;
+}
+.box1-left input {
+  color: white;
+  position: absolute;
+  width: 291px;
+  height: 47px;
+  border-radius: 22px;
+  background-color: #edcf3d;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 488px;
+  margin-left: 197px;
+  box-shadow: 1px 1px 5px white;
+  border: antiquewhite;
+}
+.box2 {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(238, 232, 232);
+}
+.box2 .p1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  margin-left: 73px;
+  margin-top: 28px;
+  width: 525px;
+}
+.box2 table,
+tr,
+th {
+  width: 400px;
+  height: 30px;
+  border: 1px solid black;
+}
+.box2 table {
+  border-collapse: collapse;
+  margin-top: 91px;
+  margin-left: 74px;
+  position: absolute;
+  color: brown;
+}
+.box2 table tr th:hover {
+  background-color: #8b7509;
+  color: aliceblue;
+}
+.thucan1 {
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 71px;
+  height: 369px;
+  width: 278px;
+  width: 279px;
+
+  background-color: white;
+}
+.thucan1 .p1 {
+  margin-top: 0;
+  margin-left: -4px;
+}
+.thucan1 .p2 {
+  font-size: 20px;
+  margin-top: 42px;
+}
+.thucan1 button {
+  width: 50px;
+  border: none;
+  height: 42px;
+  margin-top: 10px;
+  background-color: rgb(201, 204, 206);
+}
+.thucan1 a .them {
+  display: block;
+
+  margin-left: 249px;
+  margin-top: -30px;
+  width: 30px;
+}
+.thucan2 {
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 383px;
+  height: 369px;
+  width: 278px;
+  width: 279px;
+
+  background-color: white;
+}
+.thucan2 .p1 {
+  margin-top: 0;
+  margin-left: -4px;
+}
+.thucan2 .p2 {
+  font-size: 20px;
+  margin-top: 42px;
+}
+.thucan2 button {
+  width: 50px;
+  border: none;
+  height: 42px;
+  margin-top: 10px;
+  background-color: rgb(201, 204, 206);
+}
+.thucan2 a .them {
+  display: block;
+
+  margin-left: 249px;
+  margin-top: -30px;
+  width: 30px;
+}
+.thucan3 {
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 698px;
+  height: 369px;
+  width: 278px;
+  width: 279px;
+
+  background-color: white;
+}
+.thucan3 .p1 {
+  margin-top: 0;
+  margin-left: -4px;
+}
+.thucan3 .p2 {
+  font-size: 20px;
+  margin-top: 42px;
+}
+.thucan3 button {
+  width: 50px;
+  border: none;
+  height: 42px;
+  margin-top: 10px;
+  background-color: rgb(201, 204, 206);
+}
+.thucan3 a .them {
+  display: block;
+
+  margin-left: 249px;
+  margin-top: -30px;
+  width: 30px;
+}
+.thucan4 {
+  position: absolute;
+  margin-top: 228px;
+  margin-left: 1010px;
+  height: 369px;
+  width: 278px;
+  width: 279px;
+
+  background-color: white;
+}
+.thucan4 .p1 {
+  margin-top: 0;
+  margin-left: -4px;
+}
+.thucan4 .p2 {
+  font-size: 20px;
+  margin-top: 42px;
+}
+.thucan4 button {
+  width: 50px;
+  border: none;
+  height: 42px;
+  margin-top: 10px;
+  background-color: rgb(201, 204, 206);
+}
+.thucan4 a .them {
+  display: block;
+
+  margin-left: 249px;
+  margin-top: -30px;
+  width: 30px;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(8, 71, 50);
+}
+footer .logo {
+  margin-top: 28px;
+  margin-left: 65px;
+  display: inline-block;
+}
+footer nav {
+  margin-left: 549px;
+  margin-top: -41px;
+}
+footer nav li {
+  display: inline-block; /* nam ngang */
+}
+footer nav li a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-decoration: none; /* bỏ gạch chân */
+  text-transform: uppercase; /* viet hoa toan bo */
+  line-height: 60px; /* can cho bang header */
+  padding: 0 15px; /* khoang cach chu */
+  display: inline-block; /* hover bang hearder 66px ngang len*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+footer a .img1 {
+  margin-left: 1330px;
+  margin-top: -44px;
+  display: block;
+}
+footer a .img2 {
+  margin-left: 1380px;
+  margin-top: -25px;
+  display: block;
+}
+footer p {
+  color: white;
+  margin-left: 641px;
+  display: block;
+
+  margin-top: 30px;
+  font-size: 15px;
+}
